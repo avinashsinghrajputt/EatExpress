@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.logo} alt="" />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nemo optio corporis ad alias? Amet at voluptates saepe quos quia.</p>
+            <img src={assets.logo} alt="" className='footer-logo' />
+            <p>EatExpress is a modern, interactive restaurant website designed to enhance the dining experience for customers by providing a seamless, user-friendly interface.</p>
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -28,12 +28,12 @@ const Footer = () => {
             <h2>Get In TOUCH</h2>
             <ul>
                 <li>+91-899-899-8998</li>
-                <li>contact@tomato.com</li>
+                <li>contact@eatexpress.com</li>
             </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 Tomato.com - All Right Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 EatExpress.com - All Right Reserved.</p>
     </div>
   )
 }
